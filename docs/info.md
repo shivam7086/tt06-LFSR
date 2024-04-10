@@ -1,8 +1,8 @@
 How it works
-This is a linear shift register.
+XOR last to MSB bit, and shift one bit from LSB to MSB.
 
 How to test
-Currently LFSR, test
+I test it on vivado and open sources (OpenROAD and OpenLane) 
 
 External hardware
-non by default
+defaults  
