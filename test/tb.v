@@ -23,7 +23,7 @@ module tb ();
   wire [7:0] uio_oe;
 
   // Replace tt_um_example with your module name:
-  tt_um_Johnson_Counter_wmk7fe user_project (
+  tt_um_LFSR_shivam user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
