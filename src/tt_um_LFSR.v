@@ -16,7 +16,7 @@ module tt_um_LFSR_shivam (
     input  wire       rst_n     // reset_n - low to reset
 );
  
- reg[3:0] out;
+    reg[9:0] out;
  assign rst = rst_n;
  assign uo_out = out;
 
@@ -27,8 +27,8 @@ module tt_um_LFSR_shivam (
     always@(posedge clk)
 begin 
 if(rst)
-out=4'b1;
+out=10'b1;
 else
-out={out[2:0],(out[3]^out[2])};
+    out={out[8:0],(out[9]^out[8])};
 end
 endmodule
