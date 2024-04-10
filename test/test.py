@@ -10,7 +10,7 @@ async def test_project(dut):
   dut._log.info("Start")
   
   # Our example module doesn't use clock and reset, but we show how to use them here anyway.
-  clock = Clock(dut.clk, 10, units="us")
+  clock = Clock(dut.clk, 20, units="ns")
   cocotb.start_soon(clock.start())
 
   # Reset
@@ -19,7 +19,7 @@ async def test_project(dut):
   dut.ui_in.value = 0
   dut.uio_in.value = 0
   dut.rst_n.value = 0
-  await ClockCycles(dut.clk, 10)
+  await ClockCycles(dut.clk, 20)
   dut.rst_n.value = 1
 
   # Set the input values, wait one clock cycle, and check the output
