@@ -27,7 +27,7 @@ module tt_um_LFSR_shivam (
     always@(posedge clk)
 begin 
 if(rst)
-out=10'b1;
+out<=10'b1;
 else
     out={out[8:0],(out[9]^out[8])};
 end
