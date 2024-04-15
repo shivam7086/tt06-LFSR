@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-This Verilog module defines a 10-bit Linear Feedback Shift Register (LFSR). It features clock (`clk`) and reset (`rst`) input pins. The output pin (`out`) delivers a pseudo-random sequence based on clock edges and reset conditions. It's designed for digital applications requiring pseudo-random sequence generation and pattern generation.
+A 10-bit binary counter utilizes 10 D flip-flops, where each flip-flop's output connects to the next flip-flop's input. Clocking the first flip-flop initiates counting. With each clock pulse, the counter increments in binary from 0000000000 to 1111111111, spanning decimal values 0 to 1023.
 
 
 ## How to test
