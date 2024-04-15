@@ -1,10 +1,10 @@
 
 # Tiny Tapeout project information
 project:  # design a Linear feedback shift register.
-  title: "10-bit Linear feedback shift register"  # Project title
-  author: "Shivam Bhardwaj, Sachin Sharma, Pankaj Lodhi and Ambika Prasad Shah"  # Your name
+  title: "10-bit Binary Counter"  # Project title
+  author: "Shivam Bhardwaj, Aryan kannaujiya and Ambika Prasad Shah"  # Your name
   discord: "ICResQ Lab"  # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description: "This Verilog module implements a 10-bit Linear Feedback Shift Register (LFSR) for generating pseudo-random sequences with clock and reset inputs."  # One line description of what your project does
+  description: " 10 bit counter."  # One line description of what your project does
   language: "Verilog"  # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz: 50000000  # Clock frequency in Hz (or 0 if not applicable)
   tiles: "1x1" # How many tiles your design occupies? A single tile is about 167x108 uM. Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
