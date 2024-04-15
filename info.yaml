@@ -10,7 +10,7 @@ project:  # design a Linear feedback shift register.
   tiles: "1x1" # How many tiles your design occupies? A single tile is about 167x108 uM. Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
   top_module: "tt_um_LFSR_shivam" # Your top module name must start with "tt_um_". Make it unique by including your github username:
   source_files:        
-  - "tt_um_LFSR.v" # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
+  - "tt_um_Counter.v" # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
 
 pinout:  # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
   # Inputs
