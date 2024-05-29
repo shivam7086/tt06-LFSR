@@ -21,8 +21,7 @@ module tb ();
   wire [7:0] uo_out;
   wire [7:0] uio_out;
   wire [7:0] uio_oe;
-   wire [15:0] Uin;
-   wire [15:0] Uout;
+ 
 
   // Replace tt_um_example with your module name:
 tt_um_Counter_shivam user_project (
